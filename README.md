@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-composer require amirhosseinabd/laravel-easy-search
+composer require amirhosseinabd/laravel-easy-search:^1.0.0-beta
 ```
 
 ## Quick Start
