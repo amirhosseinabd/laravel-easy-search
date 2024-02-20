@@ -24,5 +24,7 @@
                 "Amirhosseinabd\\LaravelEasySearch\\LaravelEasySearchServiceProvider"
             ]
         }
-    }
+    },
+	"minimum-stability": "dev",
+    "prefer-stable": true,
 }
