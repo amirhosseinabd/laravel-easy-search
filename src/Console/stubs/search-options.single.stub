@@ -1,0 +1,24 @@
+<?php
+
+namespace DummyNamespace;
+
+use Amirhosseinabd\LaravelEasySearch\Concerns\SingleSearchOptions;
+
+class DummyClass implements SingleSearchOptions
+{
+    /**
+    * @return string[]
+    */
+    public function columns(): array
+    {
+        return [];
+    }
+
+     /**
+     * @return string
+     */
+    public function inputName(): string
+    {
+        return "query";
+    }
+}

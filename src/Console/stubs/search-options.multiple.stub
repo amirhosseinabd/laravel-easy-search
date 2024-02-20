@@ -1,0 +1,24 @@
+<?php
+
+namespace DummyNamespace;
+
+use Amirhosseinabd\LaravelEasySearch\Concerns\MultipleSearchOptions;
+
+class DummyClass implements MultipleSearchOptions
+{
+    /**
+    * @return string[]
+    */
+    public function columns(): array
+    {
+        return [];
+    }
+
+     /**
+     * @return string[]
+     */
+     public function inputNames(): array
+     {
+         return [];
+     }
+}

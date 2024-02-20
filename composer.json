@@ -1,0 +1,28 @@
+{
+    "name": "amirhosseinabd/laravel-easy-search",
+    "description": "Easy search in laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "laravel search", "laravel-search", "eloquent", "eloquent search", "eloquent-search"],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Amirhosseinabd\\LaravelEasySearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amirhossein Abdollahzadeh",
+            "email": "amirhosseinab.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amirhosseinabd\\LaravelEasySearch\\LaravelEasySearchServiceProvider"
+            ]
+        }
+    }
+}
